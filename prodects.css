@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.pages{
+    background: linear-gradient(to top left,#F7ECDE,#D7C0AE);
+}
+.pages .title1 h2{
+    text-align: center;
+    font-size: 40px;
+    color: brown;
+    border-bottom: 1px solid brown;
+    border-top: 1px solid brown;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.prodects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;   
+}
+.images{
+    border: none;
+    border-radius: 10px;
+    height: 430px;
+    width: 280px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* .images:hover{
+    color: black;
+    box-shadow: 0px 0px 15px 5px; 
+    }  */
+
+.images img{
+    height: 250px;
+    width: 250px;
+    border: none;
+    border-radius: 250px;
+    margin: 10px 10px 0px 15px
+}
+.images img:hover{
+    box-shadow: 0px 0px 20px 10px;
+    color: brown;
+    transition: 3s;
+}
+.images p:nth-of-type(1){
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 10PX;
+}
+.images p:nth-of-type(2){
+    text-align: right;
+    margin-right: 65PX;
+    margin-bottom: 10PX;
+    margin-top: 15PX;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.images button{
+    height: 40px;
+    width: 160px;
+    margin-left: 55px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: lightsteelblue;
+    border-radius: 20px;
+    border: none;
+}
+.images button:hover{
+    color: rgb(77, 75, 75);
+    box-shadow: 0px 0px 15px 8px;
+    transition: 1s;
+}
+footer {
+    background-color: black;
+    position: relative;
+    color: white;
+    height: 260px;
+    text-align: center; 
+}
+.play{
+    position:absolute;
+    left: 100px;
+    top: 50px;
+}
+address{
+    margin-top: 20px;
+    font-size: 20px;
+}
+footer h1{
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+p{
+    margin-top: 15px;
+   font-size: 22px;
+}
+.mail{
+    position: absolute;
+    left: 75%;
+    bottom: 55px;
+}
+.mail h1{
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.icon i{
+    font-size: 30px;
+    padding-top: 20px;
+     padding-left: 30px;
+}

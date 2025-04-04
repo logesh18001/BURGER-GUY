@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/reg\ 5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.regs{
+    border: none;
+    border-radius: 15px;
+    width: 480px;
+    height: 550px;
+    backdrop-filter: blur(10px); 
+    margin: 100px 500px 0px 600px ;
+}
+.regs h1{
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+}
+.regs p{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: white;
+}
+.regs input[type="text"]{
+    height: 40px;
+    width: 300px;
+    margin-top: 15px;
+    margin-left: 90px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(57, 54, 54);
+    padding: 10px 10px 10px 10px;
+    
+}
+.regs input[type="email"]{
+    height: 40px;
+    width: 300px;
+    margin-top: 15px;
+    margin-left: 90px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(57, 54, 54);
+    padding: 10px 10px 10px 10px;
+}
+ input[type="email"]:hover{
+    color: rgb(255, 253, 253);
+    box-sizing: 0px 0px 25px 10px;
+}
+.regs input[type="number"]{
+    height: 40px;
+    width: 300px;
+    margin-left: 90px;
+    margin-top: 15px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(57, 54, 54);
+    padding: 10px 10px 10px 10px;
+}
+label {
+    color: white;
+    font-size: 18px;
+}
+.regs input[type="checkbox"]{
+    margin-left: 200px;
+}
+.regs input[placeholder]{
+    color: white;
+    font-size: 15px;
+}
+.regs button{
+    border-radius: 25px;
+    border: none;
+    height: 45px;
+    width: 190px;
+    font-size: 18px;
+    color: darkred;
+    margin-left: 155px;
+    font-weight: 700;
+    background-color:rgb(240, 174, 94);
+}
+.regs button:hover{
+    color: rgb(255, 255, 255,0.7);
+    box-shadow: 0px 0px 15px 5px;
+    transition: 1s;
+}
+.regs a{
+    padding-bottom: 20px;
+    padding-left: 110px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.regs a:hover{
+    color: dodgerblue;
+}
+.regs a:active{
+    color: lightgreen;
+}
+/* .regs a:visited{
+    color:violet;
+}
+ */
+
+ @media(max-width:768px){
+    body{
+        background-image: url(./images/reg\ 5.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .regs{
+        border: none;
+        border-radius: 15px;
+        width: 480px;
+        height: 550px;
+        backdrop-filter: blur(10px); 
+        margin: 100px 500px 0px 600px ;
+    }
+    .regs h1{
+        text-align: center;
+        padding-top: 15px;
+        color: white;
+    }
+    .regs p{
+        text-align: center;
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        color: white;
+    }
+    .regs input[type="text"]{
+        height: 40px;
+        width: 300px;
+        margin-top: 15px;
+        margin-left: 90px;
+        border-radius: 25px;
+        border: none;
+        background-color: rgb(57, 54, 54);
+        padding: 10px 10px 10px 10px;
+        
+    }
+    .regs input[type="email"]{
+        height: 40px;
+        width: 300px;
+        margin-top: 15px;
+        margin-left: 90px;
+        border-radius: 25px;
+        border: none;
+        background-color: rgb(57, 54, 54);
+        padding: 10px 10px 10px 10px;
+    }
+     input[type="email"]:hover{
+        color: rgb(255, 253, 253);
+        box-sizing: 0px 0px 25px 10px;
+    }
+    .regs input[type="number"]{
+        height: 40px;
+        width: 300px;
+        margin-left: 90px;
+        margin-top: 15px;
+        border-radius: 25px;
+        border: none;
+        background-color: rgb(57, 54, 54);
+        padding: 10px 10px 10px 10px;
+    }
+    label {
+        color: white;
+        font-size: 18px;
+    }
+    .regs input[type="checkbox"]{
+        margin-left: 200px;
+    }
+    .regs input[placeholder]{
+        color: white;
+        font-size: 15px;
+    }
+    .regs button{
+        border-radius: 25px;
+        border: none;
+        height: 45px;
+        width: 190px;
+        font-size: 18px;
+        color: darkred;
+        margin-left: 155px;
+        font-weight: 700;
+        background-color:rgb(240, 174, 94);
+    }
+    .regs button:hover{
+        color: rgb(255, 255, 255,0.7);
+        box-shadow: 0px 0px 15px 5px;
+        transition: 1s;
+    }
+    .regs a{
+        padding-bottom: 20px;
+        padding-left: 110px;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    .regs a:hover{
+        color: dodgerblue;
+    }
+    .regs a:active{
+        color: lightgreen;
+    }
+ }

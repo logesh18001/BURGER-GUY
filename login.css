@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/login\ bg\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    /* height: 100vh; */
+}
+.login{
+    border: none;
+    border-radius: 20px;
+    background-color: #f5d2d2; 
+    height: 450px;
+    width: 420px;
+    margin: 120px auto;
+    backdrop-filter: blur(15px); 
+}
+.login h1{
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+}
+ input[type="text"]{
+    background-color: #8ee8d9;
+    width: 300px;
+    height: 40px;
+    margin-left: 58px;
+    margin-top: 15px;
+    border-radius: 25px;
+    border: none;
+    padding: 10px 10px 10px 10px ;
+    color: black;
+}
+input[type="text"]:hover{
+    color:white;
+    box-shadow: 0px 0px 15px 5px;
+}
+input[ placeholder="Enter your User Name"]{
+    color: black;
+}
+input[type="checkbox"]{
+    margin-left: 50px;
+}
+label{
+    color: black;
+    font-size: 15px;
+}
+.reg p{
+    margin-left: 95px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.login a{
+    margin-left: 80px;
+    font-size: 18px;
+    color:blue;
+    text-decoration: none;
+}
+.reg p a{
+    margin: 0px 0px 0px 0px;
+}
+button{
+    height: 50px;
+    width: 200px;
+    border:none ;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: 105px;
+    background-color: #8ee8d9;
+    font-size: 20px;
+    font-weight: 600;
+}
+button:hover{
+    color:rgba(79, 23, 23) ;
+    box-shadow: 0px 0px 10px 5px;
+    transition: 1s;
+}

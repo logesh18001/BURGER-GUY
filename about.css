@@ -1,0 +1,565 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #faddb8;
+}
+
+.bg img{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    background-color: #565453;
+    height: 90px;
+    display: flex;
+}
+.logo h1{
+   margin-top: 20px;
+    color:  #F7ECDE;
+    font-size: 35px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+.fa-solid{
+    font-size: 35px;
+}
+nav ul {
+    display: flex;
+    position: relative;
+    left: 250px;
+    top: 30px;
+    gap: 120px;
+    list-style: none;
+    
+}
+nav ul li{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #F7ECDE ;
+}
+nav ul li a:hover{
+   color: red; 
+}
+.fa-solid [ fa-house]{
+    font-size: 25px;
+}
+.fa-regular {
+    font-size: 30px;
+}
+.fa-solid [fa-user]{
+    font-size: 25px;
+    margin-left: 10px;
+}                  
+.fa-solid [fa-utensils]{
+    font-size: 25px;
+} 
+.bg p{
+    position: absolute;
+    top: 300px;
+    left: 320px;
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 800;
+}
+.bg button{
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    position: relative;
+    bottom: 370px;
+    left: 630px;
+    border: none;
+    background-color: lemonchiffon;
+    font-size: 16px;
+    font-weight: 900;
+    color: #503006;
+}
+.bg button:hover{
+    box-shadow: 0px 0px 15px 5px;
+    color: rgba(251, 138, 155, 0.7);
+    transition: 1s;
+}
+.content1 h3{
+    font-size: 30px;
+    margin-left: 100px;
+    padding-top: 50px;
+}
+.content1 p{
+    width: 850px;
+    top: 10px;
+    left: 100px;
+    bottom: 20px;
+    font-size: 23px;
+    position: relative;
+}
+hr{
+    margin-top: 50px;
+    background-color: black;
+}
+.content1 img{
+    position: absolute;
+    top: 920px;
+    left: 1000px;
+    bottom: 20px;
+    border: none;
+    border-radius:350px;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+}
+.content2 img{
+    height: 400px;
+    width: 400px;
+    position:relative ;
+    top: 15px;
+    left: 50px;
+    border: none;
+    border-radius: 350px;
+}
+.content2 p{
+    position: absolute;
+    width: 800px;
+    top: 1420px;
+    left: 550px;
+    font-size: 23px;
+}
+hr{
+    margin-top: 50px;
+}
+.img img{
+    border: none;
+    border-radius: 350px;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top: 10px;
+    left: 60px; 
+    margin-left: 25px;
+}
+footer {
+    background-color: black;
+    position: relative;
+    color: white;
+    height: 260px;
+    text-align: center; 
+    margin-top: 20px;
+}
+.play{
+    position:absolute;
+    left: 100px;
+    top: 50px;
+}
+address{
+    margin-top: 20px;
+    font-size: 20px;
+}
+footer h1{
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+p{
+    margin-top: 15px;
+   font-size: 22px;
+}
+.mail{
+    position: absolute;
+    left: 75%;
+    bottom: 55px;
+}
+.mail h1{
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.icon i{
+    font-size: 30px;
+    padding-top: 20px;
+     padding-left: 30px;
+}
+
+@media(max-width:768px){
+    body{
+        background-color: #faddb8;
+    }
+    
+    .bg img{
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    header{
+        background-color: rgba(51, 49, 49, 0.5);
+        height: 90px;
+        display: flex;
+    }
+    .logo h1{
+       margin-top: 25px;
+        color:  #F7ECDE;
+        font-size: 25px;
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+    .fa-solid{
+        font-size: 18px;
+    }
+    nav ul {
+        display: flex;
+        position: relative;
+        left: 100px;
+        top: 40px;
+        gap: 45px;
+        list-style: none;
+        
+    }
+    nav ul li{
+        font-size: 15px;
+        font-weight: 600;
+    
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #F7ECDE ;
+    }
+    nav ul li a:hover{
+       color: red; 
+    }
+    .fa-solid [ fa-house]{
+        font-size: 15px;
+    }
+    .fa-regular {
+        font-size: 15px;
+    }
+    .fa-solid [fa-user]{
+        font-size: 20px;
+        margin-left: 10px;
+    }                  
+    .fa-solid [fa-utensils]{
+        font-size: 20px;
+    } 
+    .bg p{
+        position: absolute;
+        top: 300px;
+        left: 150px;
+        width: 500px;
+        color: whitesmoke;
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .bg button{
+        height: 50px;
+        width: 200px;
+        border-radius: 25px;
+        position: relative;
+        bottom: 330px;
+        left: 280px;
+        border: none;
+        background-color: lemonchiffon;
+        font-size: 16px;
+        font-weight: 900;
+        color: #503006;
+    }
+    .bg button:hover{
+        box-shadow: 0px 0px 15px 5px;
+        color: rgba(251, 138, 155, 0.7);
+        transition: 1s;
+    }
+    .content1 h3{
+        font-size: 30px;
+        margin-left: 100px;
+        padding-top: 50px;
+        text-align: center;
+    }
+    .content1 p{
+        width: 400px;
+        top: 10px;
+        left: 30px;
+        bottom: 20px;
+        font-size: 18px;
+        text-align: justify;
+        position: relative;
+    }
+    
+    .content1 img{
+        position: absolute;
+        top: 970px;
+        left: 480px;
+        bottom: 20px;
+        border: none;
+        border-radius:350px;
+        background-size: cover;
+        height: 280px;
+        width: 280px;
+    }
+    .content2 img{
+        height: 280px;
+        width: 280px;
+        position:relative ;
+        top: 15px;
+        left: 15px;
+        border: none;
+        border-radius: 350px;
+    }
+    .content2 p{
+        position: absolute;
+        width: 450px;
+        top: 1360px;
+        left: 300px;
+        font-size: 18px;
+        text-align: justify;
+    }
+   .content2 hr{
+        margin-top: 50px;
+    }
+    .img img{
+        border: none;
+        border-radius: 350px;
+        height: 250px;
+        width: 250px;
+        position: relative;
+        top: 10px;
+        left: 60px; 
+        margin-left: 25px;
+    }
+    footer {
+        background-color: black;
+        position: relative;
+        color: white;
+        height: 260px;
+        text-align: center; 
+    }
+    .play{
+        position:absolute;
+        left: 10px;
+        top: 100px;
+    }
+    .play img{
+        width: 170px;
+    }
+    address{
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    footer h1{
+        padding-top: 20px;
+        padding-bottom: 20px; 
+    }
+    p{
+        margin-top: 15px;
+       font-size: 18px;
+    }
+    .mail{
+        position: absolute;
+        left: 75%;
+        bottom: 55px;
+    }
+    .mail h1{
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+    .icon i{
+        font-size: 20px;
+        padding-top: 20px;
+         padding-left: 30px;
+    } 
+    
+}
+
+@media(max-width:480px){
+    body{
+        background-color: #faddb8;
+    }
+    
+    .bg img{
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    header{
+        background-color: rgba(51, 49, 49, 0.5);
+        height: 250px;
+        display: flex;
+    }
+    .logo h1{
+       margin-top: 25px;
+        color:  #F7ECDE;
+        font-size: 25px;
+        margin-left: 15px;
+        /* margin-bottom: 25px; */
+        padding-bottom: 20px;
+    }
+    .fa-solid{
+        font-size: 18px;
+    }
+    nav ul {
+        display: inline;
+        position: relative;
+        left: px;
+        top: 40px;
+        gap: 45px;
+        list-style: none;
+    }
+    nav ul li{
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-left: -110px;
+    
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #F7ECDE ;
+    }
+    nav ul li a:hover{
+       color: red; 
+    }
+    .fa-solid [ fa-house]{
+        font-size: 17px;
+    }
+    .fa-regular {
+        font-size: 17px;
+    }
+    .fa-solid [fa-user]{
+        font-size: 20px;
+        margin-left: 10px;
+    }                  
+    .fa-solid [fa-utensils]{
+        font-size: 20px;
+    } 
+    .bg p{
+        position: absolute;
+        top: 470px;
+        left: 100px;
+        width: 350px;
+        color: whitesmoke;
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .bg button{
+        height: 50px;
+        width: 200px;
+        border-radius: 25px;
+        position: relative;
+        bottom: 300px;
+        left: 150px;
+        border: none;
+        background-color: lemonchiffon;
+        font-size: 16px;
+        font-weight: 900;
+        color: #503006;
+    }
+    .bg button:hover{
+        box-shadow: 0px 0px 15px 5px;
+        color: rgba(251, 138, 155, 0.7);
+        transition: 1s;
+    }
+    .content1 h3{
+        font-size: 30px;
+        margin-left: 25px;
+        margin-right: 25px;
+        padding-top: 25px;
+        text-align:justify;
+    }
+    .content1 p{
+        width: 280px;
+        top: 10px;
+        left: 10px;
+        bottom: 20px;
+        font-size: 14px;
+        text-align: justify;
+        position: relative;
+    }
+    
+    .content1 img{
+        position: absolute;
+        top: 1120px;
+        left: 300px;
+        bottom: 20px;
+        border: none;
+        border-radius:350px;
+        background-size: cover;
+        height: 170px;
+        width: 170px;
+    }
+    .content2 img{
+        height: 170px;
+        width: 170px;
+        position:relative ;
+        top: 100px;
+        left: 15px;
+        border: none;
+        border-radius: 350px;
+    }
+    .content2 p{
+        position: absolute;
+        width: 270px; 
+        top: 1470px;
+        left: 200px;
+        font-size: 14px;
+        text-align:left;
+    }
+   .content2 hr{
+        margin-top: 200px;
+    }
+    .img img{
+        border: none;
+        border-radius: 350px;
+        height: 250px;
+        width: 250px;
+        position: relative;
+        top: 10px;
+        left: 100px; 
+        margin-left: 25px;
+    }
+    footer {
+        background-color: black;
+        position: relative;
+        color: white;
+        height: 190px;
+        text-align: center; 
+    }
+    .play{
+        position:absolute;
+        left: 10px;
+        top: 80px;
+    }
+    .play img{
+        width: 100px;
+    }
+    address{
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    footer h1{
+        font-size: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px; 
+    }
+    p{
+        margin-top: 8px;
+       font-size: 12px;
+    }
+    .mail{
+        position: absolute;
+        margin-left: 10px;
+    }
+    .mail h1{
+        font-size: 20px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    .icon i{
+        font-size: 18px;
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+}
